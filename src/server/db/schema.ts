@@ -1,3 +1,5 @@
+import "server-only";
+
 import { index, integer, pgTableCreator, text } from "drizzle-orm/pg-core";
 
 export const createTable = pgTableCreator(
