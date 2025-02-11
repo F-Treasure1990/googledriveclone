@@ -6,6 +6,7 @@
 - [ ] Move folder open state to URL
 - [ ] Add auth
 - [ ] Add file uploading
+- [ ] Add analytics
 
 ## Note from 9-2-25
 
@@ -15,3 +16,9 @@ Connection to db, setup. Next steps:
 - [x] Manually insert examples
 - [x] Render them in the UI
 - [x] Push and test all is working correctly
+
+## 11-2-25
+
+- [x] Change folders to link components, remove all client state
+- [ ] Clean database and data fetching patterns
+- [ ] Real Homepage
