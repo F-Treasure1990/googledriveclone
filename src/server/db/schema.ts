@@ -6,7 +6,7 @@ export const createTable = pgTableCreator(
   (name) => `theo-google-drive-clone_${name}`,
 );
 
-export const files = createTable(
+export const files_table = createTable(
   "files_table",
   {
     id: integer("id").primaryKey().generatedAlwaysAsIdentity(),
@@ -20,7 +20,7 @@ export const files = createTable(
   }),
 );
 
-export const folders = createTable(
+export const folders_table = createTable(
   "folders_table",
   {
     id: integer("id").primaryKey().generatedAlwaysAsIdentity(),

@@ -2,8 +2,8 @@ import { eq } from "drizzle-orm";
 import DriveContents from "~/app/drive-contentx";
 import { db } from "~/server/db";
 import {
-  files as filesSchema,
-  folders as folderSchema,
+  files_table as filesSchema,
+  folders_table as folderSchema,
 } from "~/server/db/schema";
 
 async function getAllParents(folderId: number) {
